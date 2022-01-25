@@ -1,0 +1,99 @@
+/* Content Section */
+.all-blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.nav-button {
+  border: 1px solid var(--secondary-text-color);
+  text-decoration: none;
+  color: var(--main-text-color);
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform ease-in 0.2s;
+}
+
+.nav-button:hover {
+  transform: scale(1.1);
+  color: #c724b1;
+}
+
+.nav-button:nth-child(2) {
+  margin-left: 15px;
+}
+
+.list-wrapper {
+  background-color: var(--secondary-background-color);
+  border-radius: 5px;
+  width: 70%;
+  min-height: 150px;
+  margin: 15px 10px 15px 10px;
+  padding: 20px 10px 20px 10px;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.button-group {
+  padding-top: 10px;
+  display: flex;
+}
+
+.edit-button {
+  border: 1px solid var(--secondary-text-color);
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform ease-in 0.2s;
+}
+
+.edit-button:hover {
+  transform: scale(1.1);
+}
+
+.delete-button {
+  color: #c724b1;
+  background-color: var(--secondary-background-color);
+  border: 1px solid #c724b1;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform ease-in 0.2s;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 429px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 900px) {
+}
+
+@media screen and (min-width: 900px) and (max-width: 1025px) {
+}
+
+@media screen and (min-width: 2000px) {
+  .section-title {
+    font-size: 4rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+  .date {
+    font-size: 1.1rem;
+  }
+}

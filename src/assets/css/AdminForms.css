@@ -1,0 +1,171 @@
+.back-button-wrapper {
+  padding-left: 6.25em;
+}
+
+.back-button {
+  border: 1px solid var(--main-border-color);
+  color: var(--main-text-color);
+  border-radius: 3px;
+  text-decoration: none;
+  width: fit-content;
+  padding: 5px;
+}
+
+.form-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px 0px 5px 0px;
+}
+
+.text-label {
+  font-size: 26px;
+}
+
+.data-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-area {
+  width: 100%;
+  height: max-content;
+  border-radius: 5px;
+  font-size: 20px;
+  resize: both;
+}
+
+.admin-submit-button {
+  background-color: var(--main-text-color);
+  border-radius: 5px;
+  padding: 10px;
+  font: 'Poppins';
+  border-color: var(--main-border-color);
+  transition: ease-in 0.2s;
+  margin-top: 5px;
+  font-size: 24px;
+  width: 50%;
+}
+
+.admin-submit-button:hover {
+  transform: scale(1.05);
+}
+
+.admin-tag-list-wrapper {
+  display: flex;
+}
+
+.admin-tag-list-button-area {
+  margin: 5px;
+  width: 100%;
+  border: 1px solid var(--main-border-color);
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.admin-tag-list-button-area.active {
+  background-color: #f8d5f3;
+}
+
+.admin-tag-list-button.active {
+  color: #3939bf;
+}
+
+.admin-tag-list-button {
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  transition: ease-in 0.2s;
+  font-size: 22px;
+}
+
+.admin-tag-list-button:hover {
+  color: var(--main-text-color);
+}
+
+.admin-tag-list-button.active:hover {
+  color: rgb(117, 20, 20);
+}
+
+.plus-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.plus {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.plus.hidden {
+  display: none;
+}
+
+.plus-input-wrapper {
+  display: none;
+  border: 1px solid var(--main-border-color);
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  width: 10rem;
+}
+
+.plus-input-wrapper.show {
+  display: block;
+}
+
+.plus-input {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  width: 100%;
+}
+
+.close {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.close.hidden {
+  display: none;
+}
+
+.check {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.check.hidden {
+  display: none;
+}

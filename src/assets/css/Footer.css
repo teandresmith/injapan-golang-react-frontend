@@ -1,0 +1,11 @@
+/* Footer Section ---------------------------------------------------------------- */
+
+.footer-wrapper {
+  border-top: 0.5px ridge var(--secondary-background-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}

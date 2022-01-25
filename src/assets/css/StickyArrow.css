@@ -1,0 +1,35 @@
+.sticky-arrow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 0 3em 3em 0;
+  height: 2.1875em;
+  width: 2.1875em;
+  border: 1px var(--main-border-color) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sticky-arrow.show {
+  visibility: visible;
+}
+
+.sticky-arrow.hide {
+  visibility: hidden;
+}
+
+.sticky-arrow:hover {
+  transform: scale(1.5);
+  transition: ease-in 0.2s;
+}
+
+@media screen and (min-width: 2000px) {
+  .sticky-arrow {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.2rem;
+  }
+}

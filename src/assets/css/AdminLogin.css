@@ -1,0 +1,29 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 70vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  min-width: 200px;
+  min-height: 175px;
+  border-radius: 5px;
+  border: 1px inset whitesmoke;
+  color: #1f2833;
+}
+
+.login-form input {
+  padding: 5px;
+}
+
+.login-form button {
+  padding: 3px;
+  margin: 10px;
+}

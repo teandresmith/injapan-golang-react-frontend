@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+:root {
+  --background-color: #0b0c10;
+  --main-text-color: #66fcf1;
+  --secondary-text-color: #c5c6c8;
+  --secondary-background-color: #1f2833;
+  --main-border-color: #45a29e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: var(--background-color);
+}
+
+.entire-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--main-text-color);
+  padding: 1.875em 6.25em 1.875em 6.25em;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 3;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/cool-image.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.25;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 429px) {
+  .entire-container {
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  .overlay {
+    background-size: auto;
+  }
+  .blog-container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 900px) {
+  .entire-container {
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  .overlay {
+    background-size: contain;
+  }
+  .blog-container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
