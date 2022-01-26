@@ -42,6 +42,19 @@ the main source of details related to this project_
 - Hosting Site: https://injapanblog.herokuapp.com/
 - Repository: https://github.com/teandresmith/InJapan_Blog
 
+### Table Comparison of Tech Stacks
+
+| "                 | InJapan v1             | InJapan v2                     | InJapan v3           |
+| ----------------- | ---------------------- | ------------------------------ | -------------------- |
+| Frontend          | Flask Jinja2 Templates | Express.js Handlebar Templates | React.js             |
+| Styling Framework | Bootstrap              | Vanilla CSS + JS               | Vanilla CSS          |
+| State Management  | None                   | None                           | Redux Toolkit        |
+| Database          | PostgreSQL             | MongoDB                        | MongoDB              |
+| ORM               | SQLAlchemy             | Mongoose                       | Mongo-driver/Mongo   |
+| Web Server        | Flask-Python           | Express.js                     | Go Gin-Gonic         |
+| Deployment Env    | Heroku                 | Heroku                         | Netlify / GCP        |
+| Auth              | email/password         | email/password                 | JWT + email/password |
+
 ## InJapan v3 - Under The Hood
 
 The details of the underlying architecture can be found below.
